@@ -2,7 +2,7 @@
     <string name="app_name">FarmBill</string>
 
 
-<!--    Database names-->
+    <!--    Database names-->
     <string name="dbname_users">users</string>
     <string name="db_name_bills">bills</string>
     <string name="field_name">name</string>
