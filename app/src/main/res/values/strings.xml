@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FarmBill</string>
+    <string name="app_name">FarmBill O</string>
 
 
     <!--    Database names-->
@@ -21,4 +21,5 @@
     <string name="field_cost_of_bags">cost_of_bag</string>
     <string name="field_total_amount">total_amount</string>
     <string name="key">key</string>
+    <string name="field_extra">extra</string>
 </resources>
