@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#6075EC</color>
+
+    <color name="colorBill">#F4392A</color>
+    <color name="colorBillSec">#FAD5D3</color>
+
+    <color name="colorCalc">#00C853</color>
+    <color name="colorCalcSec">#C8F0D9</color>
+
+    <color name="colorStats">#3D5AFF</color>
+    <color name="colorStatsSec">#BFC8FA</color>
+
+    <color name="colorWeather">#685DC8</color>
+    <color name="colorWeatherSec">#DFDDF3</color>
+</resources>

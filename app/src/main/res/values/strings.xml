@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FarmBill</string>
+
+
+<!--    Database names-->
+    <string name="dbname_users">users</string>
+    <string name="db_name_bills">bills</string>
+    <string name="field_name">name</string>
+    <string name="field_date">date</string>
+    <string name="field_location">location</string>
+    <string name="field_load">load</string>
+    <string name="field_crop">crop</string>
+    <string name="field_total_bags">total_bags</string>
+    <string name="field_remain_kgs">remain_kg</string>
+    <string name="field_net_weight">net_weight</string>
+    <string name="field_gross_weight">gross_weight</string>
+    <string name="field_tare_weight">tare_weight</string>
+    <string name="field_labour">labour_cost</string>
+    <string name="field_transport">load_transport</string>
+    <string name="field_weight_machine">weight_mach</string>
+    <string name="field_cost_of_bags">cost_of_bag</string>
+    <string name="field_total_amount">total_amount</string>
+    <string name="key">key</string>
+</resources>
