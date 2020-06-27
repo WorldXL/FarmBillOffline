@@ -1,5 +1,6 @@
 package irfan.wakir.farmbilloffline;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -7,10 +8,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.math.BigDecimal;
+
 public class HomeActivity extends AppCompatActivity {
+
 
     private Intent intent;
     private Context mContext = HomeActivity.this;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +35,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void statsPanel(View view) {
+        startActivity(new Intent(mContext, Stats.class));
     }
 
 }

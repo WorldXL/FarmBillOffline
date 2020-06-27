@@ -28,9 +28,6 @@ import irfan.wakir.farmbilloffline.models.Home;
 
 public class BillsActivity extends AppCompatActivity {
 
-
-
-
     private static final int ADD_BILL_RESULT = 1;
     private RecyclerView mRecyclerView;
     private Context mContext = BillsActivity.this;
@@ -51,17 +48,6 @@ public class BillsActivity extends AppCompatActivity {
             @Override
             public void onChanged(List<Home> homes) {
                 mBillsAdapter.submitList(homes);
-                float total_amount = 0f;
-                int total_bags = 0;
-                for (int i = 0 ; i < homes.size(); i++){
-                    Home home = homes.get(i);
-                    total_amount = total_amount + home.getTotal_amount();
-                    total_bags = total_bags + home.getTotal_bags();
-                    Log.i("TAG", "getTotalAmount: "+home.getTotal_amount());
-                    Log.i("TAG", "getTotalBags: "+home.getTotal_bags());
-                }
-                Log.i("TAG", "TotalAmount :" +total_amount);
-                Log.i("TAG", "TotalBags :" +total_bags);
             }
         });
 
