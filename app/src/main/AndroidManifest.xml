@@ -16,6 +16,7 @@
         <activity android:name=".BillFormActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".Weather" />
+        <activity android:name=".Stats" /> 
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
